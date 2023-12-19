@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Warna latar belakang abu-abu muda */
+}
+
+.container {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background-color: #13415a;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+h4 {
+    margin-bottom: 20px; /* Lebih besar jarak antara judul dan elemen lainnya */
+    font-size: 28px;
+    color: #ffbf49; /* Warna kuning */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px; /* Sedikit peningkatan padding */
+    margin-bottom: 15px; /* Lebih besar jarak antar elemen input */
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Biarkan textarea dapat diubah tingginya */
+}
+
+#submit {
+    border: none;
+    background-color: #ffbf49; /* Warna kuning */
+    color: #13415a; /* Warna latar belakang card */
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px; /* Lebih besar jarak antara input terakhir dan tombol submit */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+#submit:hover {
+    background-color: #333333;
+}
